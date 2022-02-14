@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <th><input type="search" placeholder="Search Customer Name" ng-model="search.name" /></th>
+            <th><input type="search" placeholder="Search Total Price" ng-model="search.price" /></th>
+            </tr>
+            <tr>
+                <th style="color:black;">Customer Name</th>
+                <th style="color:black;">Total Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="players in r_ctrl| filter:search">
+                <td style="color:black;">{{players.name}}</td>
+                <td style="color:black;">{{players.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

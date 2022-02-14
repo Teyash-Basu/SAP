@@ -1,0 +1,10 @@
+{"players":[
+    {"id":2001, "name":"Teyash Basu","price":500, "date":"12/2/19"},
+    {"id":2002, "name":"Alok Mehra","price":600, "date":"12/5/19"},
+    {"id":2003, "name":"Suman Verma","price":1250, "date":"21/1/22"},
+    {"id":2004, "name":"Isha Gupta","price":1000, "date":"10/2/21"},
+    {"id":2005, "name":"Anubhav Saha","price":820, "date":"15/10/21"},
+    {"id":2006, "name":"Poorvi Singh","price":690, "date":"13/11/19"},
+    {"id":2007, "name":"Vani Kohli","price":300, "date":"20/4/20"},
+    {"id":2008, "name":"Ashoke Kumar","price":700, "date":"20/4/20"}
+]}
